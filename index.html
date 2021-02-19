@@ -4,53 +4,62 @@
 -->
 <html>
 	<head>
-
 		<title>Dmitry Landy's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" /> <!-- This stylizes the website. Without it, it looks like garbage!-->
 	</head>
-	<body class="is-preload">
-		
+
+	<body class="box">
+			
+			
+				
 		<!-- Header -->
 			<div id="header">
-				<ul class="icons">
-					<li><a href="https://leetcode.com/DmitryLandy/" class="icon solid fa-code" target="_blank"></a></li>
-					<li><a href="https://www.linkedin.com/in/dmitrylandy/" class="icon brands fa-linkedin" target="_blank"></a></li>
-					<li><a href="https://github.com/DmitryLandy" class="icon brands fa-github" target="_blank"></a></li>
 
-				</ul>
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="aln-center row"> <!--Determines the button layout-->
+						<li><a href="#header" class="button">Home</a></li>
+						<li><a href="#skillset" class="button">Skillset</a></li>
+						<li><a href="#main"class="button">Projects</a></li>
+						<li><a href="#footer"class="button">Contact</a></li>
+					</ul>
+				</nav>
+
+
+				
 				
 				<h1>Dmitry Landy</h1>
 				<h2>Software Development Portfolio</h2>
-				<a href="https://www.linkedin.com/in/dmitrylandy/" class="image icon solid" target="_blank"><img src="images/portfolio-Picture.png" alt="" /></a><br>
-
+				<a href="https://www.linkedin.com/in/dmitrylandy/" class="icon image" target="_blank"><img src="images/portfolio-Picture.png" alt="" /></a><br>
+				
 				<p>Hello! My name is <b>Dmitry Landy</b> and this is my portfolio for software development. 
 					<br />This portfolio showcases my various projects that I have been working on 
 					<br />during my time in the 
-					<b><a href="https://military.microsoft.com/programs/microsoft-software-systems-academy/" target="_blank">Microsoft Software and Systems Academy</a>	</b>			
-					<br />and during my cybersecurity undergraduate program with 
-					<br /><b><a href="https://www.umgc.edu/academic-programs/bachelors-degrees/computer-networks-and-cyber-security-major.cfm" target="_blank">
+					<b><a href="https://military.microsoft.com/programs/microsoft-software-systems-academy/" target="_blank">Microsoft Software and Systems Academy</a>	</b> and			
+					<br />during my computer science minor with 
+					<b><a href="https://www.umgc.edu/academic-programs/bachelors-degrees/computer-networks-and-cyber-security-major.cfm" target="_blank">
 						University of Maryland Global Campus</a></b>
-				</p>
-				<p>
-					<br />Although I was a 
-					<b><a href="https://www.goarmy.com/careers-and-jobs/career-match/signal-intelligence/locations-stats-frequencies/35s-signals-collection-analyst.html" target="_blank">
-						Signals Collection Analyst (35S)</a></b>
-					in the Army for 6 years, I spent time learning to code. 
-					<br />As I worked more with creating programs and applications, I quickly found my passion for software development.  
-				</p>
+				</p>	
+	
+				
 			</div>
 			
-
-		<!-- Main -->
-			<div id="main">
-
-				<header class="major container medium">
+			<div id = "skillset">
+				<header class="major container small">
 					<h2>My development skillset includes: </h2><br />
 					<img src="images/languages.png" alt="" />
 					<p> These languages are demonstrated in the projects below. Enjoy! </p>
 					
+				</header>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+				<header class="major container medium">
+					<h1>My Projects </h1><br />
 				</header>
 
 				<div class="box alt container">
@@ -76,6 +85,32 @@
 						</div>
 					</section>
 				</div>
+
+
+
+				<!-- <div class="box alt container">
+					<section class="feature left">
+						<a href="#" class="image icon solid fa-signal"><img src="images/pic01.jpg" alt="" /></a>
+						<div class="content">
+							<h3>The First Thing</h3>
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="#" class="image icon solid fa-code"><img src="images/pic02.jpg" alt="" /></a>
+						<div class="content">
+							<h3>The Second Thing</h3>
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="#" class="image icon solid fa-mobile-alt"><img src="images/pic03.jpg" alt="" /></a>
+						<div class="content">
+							<h3>The Third Thing</h3>
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+						</div>
+					</section>
+				</div> -->
 
 				<!-- This stuff below is optional -->
 				<div class="box container">
@@ -186,48 +221,8 @@
 							</table>
 						</div>
 					</section>
-					<section>
-						<header>
-							<h3>Form</h3>
-						</header>
-						<form method="post" action="#">
-							<div class="row">
-								<div class="col-6 col-12-mobilep">
-									<label for="name">Name</label>
-									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
-								</div>
-								<div class="col-6 col-12-mobilep">
-									<label for="email">Email</label>
-									<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-								</div>
-								<div class="col-12">
-									<label for="subject">Subject</label>
-									<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-								</div>
-								<div class="col-12">
-									<label for="subject">Message</label>
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions special">
-										<li><input type="submit" value="Send" /></li>
-										<li><input type="reset" value="Reset" class="alt" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section>
+					
 				</div>
-				
-
-				<footer class="major container medium">
-					<h3>Get shady with science</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button">Join our crew</a></li>
-					</ul>
-				</footer>
-
 			</div>
 
 		<!-- Footer -->
@@ -237,11 +232,20 @@
 					<header class="major last">
 						<h2>Questions or comments?</h2>
 					</header>
+					<!-- Social Media-->
+					<ul class="icons row aln-center">
+						<li><a href="https://leetcode.com/DmitryLandy/" class=" icon solid fa-code" target="_blank"></a></li>
+						<li><a href="https://www.linkedin.com/in/dmitrylandy/" class=" icon brands fa-linkedin" target="_blank"></a></li>
+						<li><a href="https://github.com/DmitryLandy" class=" icon brands fa-github" target="_blank"></a></li>
 
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
-					orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+					</ul>
 
-					<form method="post" action="#">
+					<p>
+						Let me know what you think about the projects! Would you have done any of it differently?
+						Feel free to send me a message below with a way to contact you! 
+					</p>
+
+					<form method="post" action="mailto:dmitry.landy@outlook.com">
 						<div class="row">
 							<div class="col-6 col-12-mobilep">
 								<input type="text" name="name" placeholder="Name" />
@@ -263,7 +267,7 @@
 					
 
 					<ul class="copyright">
-						<li>&copy; Dmitry Landy. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Design by: Dmitry Landy</li><li>Theme by: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 				</div>
