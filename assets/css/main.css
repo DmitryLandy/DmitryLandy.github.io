@@ -2609,12 +2609,37 @@ input, select, textarea {
 /* Box 2 */
 
 	.box2 {
-		background:#19132c;
+		/* background:#19132c; */
 		border: solid 1px rgba(224, 224, 224, 0.75);
 		margin-top: 3em;
 		margin-bottom: -3em;
 		padding: 3.5em;
 	}
+
+/* The navigation bar */
+.menu {
+	/* overflow: hidden; */
+	background-color: rgb(255, 255, 255);
+	position: fixed; 
+	width:100%;
+	top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	left: 10px;
+	z-index: 2;
+	
+  } 
+  
+ 
+  /* .navb a:hover {
+	background: #ddd;
+	color: black;
+  } */
+  
+  /* Main content
+  .main {
+	margin-top: 30px;
+  } */
 
 
 /* Feature */
