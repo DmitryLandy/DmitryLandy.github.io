@@ -81,8 +81,13 @@ input[type]:hover, textarea:hover
 .limitedText
 {
 	width: 300px;
-	font-size: 25px;
-	font-weight: 500;	
+	font-size: 22px;
+	font-weight: 400;	
+}
+.prospectName
+{
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 /* Basic */
